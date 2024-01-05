@@ -16,8 +16,8 @@ public class KDVTutariHesaplayan {
        boolean KDVorani = KDVsizfiyat > 1000;
        //Boolean sonucuna göre KDV tutarı hesaplandı.
        KDVtutari = KDVorani ? KDVsizfiyat*0.08 : KDVsizfiyat* 0.18;
-        System.out.println("Hesaplanan KDV Tutari: " + KDVtutari);
-        KDVlifiyat =  KDVsizfiyat + KDVtutari;
-        System.out.println("KDV'li fiyatı: "+ KDVlifiyat);
+       System.out.println("Hesaplanan KDV Tutari: " + KDVtutari);
+       KDVlifiyat =  KDVsizfiyat + KDVtutari;
+       System.out.println("KDV'li fiyatı: "+ KDVlifiyat);
     }
 }
